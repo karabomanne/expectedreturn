@@ -5,4 +5,4 @@ prA = 0.5 #Probable return for pA
 prB = 0.3 #Probable return for pB
 
 ER = pA * prA * pB * prB + 0.4 * (pA+pA) + pB * (-pA-pA) + pA * (-prA)   #Expected return calculation
-
+print("The expected return on an investment of R100 000 is {:.2f}%". format (ER)
